@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@unocss/nuxt": "^0.50.4",
     "nuxt": "^3.2.3"
   }
 }
