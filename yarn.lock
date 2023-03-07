@@ -1223,7 +1223,7 @@
   dependencies:
     "@unocss/core" "0.50.4"
 
-"@unocss/transformer-directives@0.50.4":
+"@unocss/transformer-directives@^0.50.4", "@unocss/transformer-directives@0.50.4":
   "integrity" "sha512-sk7AlL6wGnfKbCBDP4bKg008sJQuIbT408bkq98yA7h0/bIlLTqF6U0nzqUoIer5YxAAvIVm1Sm30CQV06s9rA=="
   "resolved" "https://registry.npmmirror.com/@unocss/transformer-directives/-/transformer-directives-0.50.4.tgz"
   "version" "0.50.4"
