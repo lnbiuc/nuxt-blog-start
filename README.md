@@ -128,3 +128,13 @@ const {id2} = route.params
 ```
 
 - 使用目录中的组件：如组件在`components/article/Title.vue`中，可以在其他组件中使用`<ArticleTitle></ArticleTitle>`来引用，目录名应小写
+
+## composables
+composables是nuxt3中的一个新概念，用于存放一些公共的逻辑，例如：获取数据，验证数据等
+如需要引用composables中的方法，直接在需要的地方写方法名即可
+
+> composables中只有顶层的方法才能被直接引入，如果需要引入子目录中的方法，需要在子目录中创建一个index.ts文件，然后在index.ts中导出方法
+
+## 使用API
+
+

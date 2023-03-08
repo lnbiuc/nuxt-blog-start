@@ -1,8 +1,11 @@
 <script setup lang='ts'>
-
+const time = ref(getTime())
 </script>
 
 <template>
-	<h3>Index</h3>
+	<div>
+		<h3>Index</h3>
+		<!-- <h4 class="text-blue-4">{{ time }}</h4> -->
+	</div>
 </template>
 

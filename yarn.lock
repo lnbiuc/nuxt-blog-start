@@ -1091,7 +1091,7 @@
     "@unocss/core" "0.50.4"
     "unconfig" "^0.3.7"
 
-"@unocss/core@0.50.4":
+"@unocss/core@^0.50.1", "@unocss/core@0.50.4":
   "integrity" "sha512-k/8CdnO4w7f+QdvCpS3U5y6xApC4odiErkBKCCaGgBqOWkuTSL92TiBnffSEA2WepGm1+Mv4urIk20ocKYxbUQ=="
   "resolved" "https://registry.npmmirror.com/@unocss/core/-/core-0.50.4.tgz"
   "version" "0.50.4"
@@ -5044,6 +5044,13 @@
   "integrity" "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ=="
   "resolved" "https://registry.npmmirror.com/universalify/-/universalify-2.0.0.tgz"
   "version" "2.0.0"
+
+"unocss-preset-chinese@^0.0.6":
+  "integrity" "sha512-jG6l7Kad8u4qN5jF/vLmdrRtBGegtgKZZ2cXrbK8GK7R68dVuxshjRuCX6OqLCDJrJjvNUev++aWS+nad1y0vg=="
+  "resolved" "https://registry.npmmirror.com/unocss-preset-chinese/-/unocss-preset-chinese-0.0.6.tgz"
+  "version" "0.0.6"
+  dependencies:
+    "@unocss/core" "^0.50.1"
 
 "unocss@0.50.4":
   "integrity" "sha512-9offjUEwVlAkR//0sidTyvKkSArRGkDdgSFeW4P4005GWnjmXnbx4amuAeS3Au4o8WoshZCCOi5EYrpO4aLdfg=="

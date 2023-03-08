@@ -22,6 +22,9 @@ const toRandomArticle = () => {
 		<span class="mx-2">
 			<NuxtLink class="link" to="/parent/child">parent/child</NuxtLink>
 		</span>
+		<span class="mx-2">
+			<NuxtLink class="link" to="/count">count</NuxtLink>
+		</span>
 	</div>
 </template>
 <style scoped>
