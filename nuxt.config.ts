@@ -2,6 +2,10 @@
 import presetChinese from "unocss-preset-chinese";
 
 export default defineNuxtConfig({
+    alias: {
+        '~~': __dirname,
+
+    },
     modules: [
         '@unocss/nuxt',
     ],
@@ -23,6 +27,11 @@ export default defineNuxtConfig({
         layoutTransition: {
             name: 'slide',
             mode: 'out-in' // default
+        }
+    },
+    runtimeConfig: {
+        public: {
+            apiBase: '/api'
         }
     }
 })
